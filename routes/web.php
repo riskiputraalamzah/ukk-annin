@@ -6,7 +6,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
-    return view('layouts.pages.products.index');
+    return view('pages.products.index');
 });
 
 Auth::routes();
